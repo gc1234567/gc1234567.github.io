@@ -8,7 +8,7 @@
   <div id="content">
   <h1>Zet je website online met GitHub Pages</h1>
   <h2>Wat is GitHub?</h2>
-  (Bron en meer info: <a href="https://programmeerplaats.nl/wat-is-github/">https://programmeerplaats.nl/wat-is-github/</a>)
+  (Bron en meer info: <a href="https://programmeerplaats.nl/wat-is-github/" target="_blank">https://programmeerplaats.nl/wat-is-github/</a>)
   <p>
     Veel programmeurs wereldwijd maken gebruik van de website GitHub, momenteel zelfs meer dan 40 miljoen.
     Zelf zal je er misschien ook wel van gehoord hebben.
@@ -30,6 +30,24 @@
     Met “Hub” wordt eigenlijk het centrale deel bedoeld, waar alle projecten samenkomen die beheerd worden met Git.
     De website GitHub is de centrale plek waar programmeurs hun projecten beheren met Git.
   </p>
+  <p>
+    Nu eerst nog een paar belangrijke termen:
+    <ul>
+      <li>
+        <strong>Repository</strong> Een repository kan je zien als de hoofdmap van je project.
+        Hierin staan alle bestanden van je project en de historie van wijzigingen die je hebt gedaan.
+      </li>
+      <li>
+        <strong>Branch</strong> Aparte plek binnen je repository, waar je bijvoorbeeld nieuwe code kan testen, zonder dat te hoeven doen op de “productversie”.
+      </li>
+      <li>
+        <strong>Master</strong> Dit is de hoofdbranch, oftewel de “productversie” van je project.
+        Nieuwe code die is getest en goedgekeurd, wordt samengevoegd met de Master branch.<br>
+        Een tijdje geleden is het woord master vervangen door het woord <strong>main</strong>, omdat master te veel aan slavernij doet denken. (Geen grap.)
+        Wij moeten de main branch weer wijzigen in master, omdat het anders niet werkt.
+      </li>
+    </ul>
+  </p>
   <h2>Wat is GitHub Pages?</h2>
   <p>
   Met GitHub is het ook mogelijk om je eigen website te <strong>hosten</strong>.
@@ -37,7 +55,7 @@
   </p>
   <ol>
     <li>
-      Maak een account op <a href="https://github.com">https://github.com</a>
+      Maak een account op <a href="https://github.com" target="_blank">https://github.com</a>
       <ul>
         <li>
           Klik op <strong>Sign up</strong>
@@ -57,7 +75,7 @@
       </ul>
     </li>
     <li>
-      <a href="https://github.com/new">Maak een nieuwe <strong>repository</strong></a> met de naam <strong>gc1234567.github.io</strong>,
+      <a href="https://github.com/new" target="_blank">Maak een nieuwe repository</a> met de naam <strong>gc1234567.github.io</strong>,
       waarbij gc1234567 <strong>precies</strong> overeenkomt met je eigen gebruikersnaam. Dat is heel belangrijk, want anders werkt het niet!<br>
       <img src="CreateRepoNoReadme.png" alt="CreateRepo">
     </li>
@@ -73,37 +91,43 @@
       Klik op <strong>Commit changes</strong>
     </li>
     <li>
-      Klik op het knopje met de tekst <strong>Main</strong>.<br>
-      <img src="Branch1.png" alt="Click Main">
-    </li>
-    <li>
-      Typ het woord <strong>master</strong> in het vak waarin staat "Find or create a branch".<br>
-      Klik dan op <strong>Create branch: master from main</strong>.<br>
-      <img src="Branch2.png" alt="Create master">
-    </li>
-    <li>
-      Klik nu op <strong>2 branches</strong>.<br>
-      <img src="Branch3.png" alt="2 branches">
-    </li>
-    <li>
-      Klik op <strong>Change default branch</strong><br>
-      <img src="Branch4.png" alt="Change default branch">
-    </li>
-    <li>
-      Verander <strong>main</strong> in <strong>master</strong> en klik op <strong>update</strong>. <br>
-      <img src="Branch5.png" alt="Change main in master">
-    </li>
-    <li>
-      Klik <strong>I understand, ...</strong> <br>
-      <img src="Branch6.png" alt="I understand">
-    </li>
-    <li>
-      Klik op <strong>Code</strong>, dan weer op <strong>2 branches</strong>. <br>
-      <img src="Branch7.png" alt="Code, 2 branches">
-    </li>
-    <li>
-      Verwijder de <strong>main</strong> branch door op het <strong>prullenbakje</strong> te klikken.<br>
-      <img src="Branch8.png" alt="Delete main">
+      Nu moet je een nieuwe branch genaamd <strong>master</strong> maken en de oude branch (<strong>main</strong>) verwijderen.<br>
+      Dat gaat zo:
+      <ol type="a">
+        <li>
+          Klik op het knopje met de tekst <strong>Main</strong>.<br>
+          <img src="Branch1.png" alt="Click Main">
+        </li>
+        <li>
+          Typ het woord <strong>master</strong> in het vak waarin staat "Find or create a branch".<br>
+          Klik dan op <strong>Create branch: master from main</strong>.<br>
+          <img src="Branch2.png" alt="Create master">
+        </li>
+        <li>
+          Klik nu op <strong>2 branches</strong>.<br>
+          <img src="Branch3.png" alt="2 branches">
+        </li>
+        <li>
+          Klik op <strong>Change default branch</strong><br>
+          <img src="Branch4.png" alt="Change default branch">
+        </li>
+        <li>
+          Verander <strong>main</strong> in <strong>master</strong> en klik op <strong>update</strong>. <br>
+          <img src="Branch5.png" alt="Change main in master">
+        </li>
+        <li>
+          Klik <strong>I understand, ...</strong> <br>
+          <img src="Branch6.png" alt="I understand">
+        </li>
+        <li>
+          Klik op <strong>Code</strong>, dan weer op <strong>2 branches</strong>. <br>
+          <img src="Branch7.png" alt="Code, 2 branches">
+        </li>
+        <li>
+          Verwijder de <strong>main</strong> branch door op het <strong>prullenbakje</strong> te klikken.<br>
+          <img src="Branch8.png" alt="Delete main">
+        </li>
+      </ol>
     </li>
     <li>
       Klaar! Je website is nu te bereiken via <strong>&lt;je gebruikersnaam&gt;.github.io</strong>.<br>
